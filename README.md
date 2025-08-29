@@ -2,6 +2,8 @@
 
 A complete FPGA-based digital signal processing system featuring real-time FFT analysis, configurable IIR filtering, and dual-mode communication (UART/Ethernet). The system includes a Python-based GUI for filter design, coefficient management, and live spectrum visualization.
 
+![System Set-up](images/PXL_20250826_131528986~2.jpg)
+
 ## Overview
 
 This project implements a high-performance DSP system on FPGA that captures analog signals, applies windowing and filtering, performs FFT analysis, and streams results to a host computer for real-time visualization. The system supports both UART and Ethernet communication modes with a sophisticated web-based interface for control and monitoring. Because every RF-processing stage (windowing, filtering, FFT, framing) is implemented in re-configurable logic and controlled from software, the design is a receive-only Software-Defined Radio (SDR) platform.
@@ -70,6 +72,8 @@ This project is a *receive-only SDR front-end*:
 - **Live Plotting**: Real-time FFT magnitude, phase, and I/Q visualization
 - **FPGA Control**: Command interface for mode switching and configuration
 
+![GUI](images/Screenshot 2025-08-26 152043.png)
+
 **Key Features:**
 
 - **Communication modes**:
@@ -132,6 +136,8 @@ This project is a *receive-only SDR front-end*:
 3. **Design Filters**: Use built-in filter designer for custom responses  
 4. **Start Acquisition**: Send start commands to begin FFT streaming
 5. **Monitor Performance**: View real-time FPS, packet statistics
+
+![Example_Plot](images/Screenshot 2025-08-26 152518.png)
 
 ### Filter Configuration
 
