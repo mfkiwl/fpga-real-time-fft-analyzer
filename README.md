@@ -8,9 +8,11 @@ A complete FPGA-based digital signal processing system featuring real-time FFT a
 
 This project implements a high-performance DSP system on FPGA that captures analog signals, applies windowing and filtering, performs FFT analysis, and streams results to a host computer for real-time visualization. The system supports both UART and Ethernet communication modes with a sophisticated web-based interface for control and monitoring. Because every RF-processing stage (windowing, filtering, FFT, framing) is implemented in re-configurable logic and controlled from software, the design is a receive-only Software-Defined Radio (SDR) platform.
 
+![Demo video thumbnail](https://www.youtube.com/watch?v=0xiEQpMPF1k)
+
 ### Key Features
 
-- **Software-Defined Radio backend** – full digital signal chain runs in FPGA; filters, window, sample-rate and output format are changed from software at run-time
+- **Software-Defined Radio backend** – full digital signal chain runs in FPGA; filters, window, filter coefficients are changed from software at run-time
 - **Real-time FFT Analysis**: 16K-point FFT processing at up to 1 MSPS
 - **Configurable IIR Filtering**: 12th-order cascaded biquad filters with UART-loadable coefficients
 - **Dual Communication**: UART (230400 baud) and Ethernet (RMII) interfaces
@@ -100,7 +102,7 @@ This project is a *receive-only SDR front-end*:
 - **Analog Input**: Single-ended or differential signal (compatible with XADC)
 - **Ethernet PHY**: RMII-compatible (50MHz reference clock)
 - **Serial Interface**: UART connection to host PC
-- **Clock**: 50MHz system clock
+- **Clock**: 100MHz system clock
 
 ## Software Setup
 
