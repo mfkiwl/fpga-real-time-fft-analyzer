@@ -104,8 +104,8 @@ This project is a *receive-only SDR front-end*:
 
 ## Software Setup
 
-**Vivado Version**: 2025.1
-**Development Borad**: Digilent Nexys 4 with Artix-7 FPGA  
+- **Vivado Version**: 2025.1
+- **Development Board**: Digilent Nexys 4 with Artix-7 FPGA  
 
 ### Prerequisites
 
