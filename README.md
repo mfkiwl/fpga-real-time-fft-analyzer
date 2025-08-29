@@ -113,10 +113,10 @@ This project is a *receive-only SDR front-end*:
 
 1. **Clone Repository**
 - git clone <repository-url>
-- cd fpga-fft-analyzer
+- cd fpga-real-time-fft-analyzer
 
 2. **Generate Window Coefficients**
-- python3 generate_hann.py
+- python3 hann_coeff.py
 - Creates hann.vhd package file
 
 3. **Build FPGA Design**
