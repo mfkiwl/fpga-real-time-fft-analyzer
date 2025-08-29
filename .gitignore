@@ -1,0 +1,80 @@
+#########################################################################################
+#VIVADO
+#########################################################################################
+
+## log files
+*.log
+*.jou
+*.rpt
+*.vdi
+
+## bitstream
+*.bin
+*.mcs
+*.svf
+*.image
+
+## netlist
+*.edf
+*.edif
+*.vn
+*.vm
+
+## SDF
+*.sdf
+
+## sim dump
+*.vcd
+*.saif
+*.tcf
+*.wdb
+
+## others
+unisims
+
+## C-files
+*.elf
+*.a
+*.sa
+*.so
+*.lib
+
+## dirs
+SDR_v2.cache/
+SDR_v2.hw/
+SDR_v2t.ip_user_files/
+SDR_v2.runs/
+SDR_v2.sim/
+SDR_v2.gen/
+
+###### for Xilinx Vivado|ISE
+*.xpr
+.Xil/
+.cache/
+fsm_encoding.os
+tab_*/
+webtalk.*
+vivado_pid*.str
+hs_err_pid*
+xelab.*
+xsim.*
+xvlog.*
+*.cache
+*.sim
+*.runs
+*.hw
+*.backup.*
+*.debug
+
+## checkpoint files
+*.dcp
+
+
+
+# Python
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+*.swp
