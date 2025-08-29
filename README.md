@@ -72,7 +72,7 @@ This project is a *receive-only SDR front-end*:
 - **Live Plotting**: Real-time FFT magnitude, phase, and I/Q visualization
 - **FPGA Control**: Command interface for mode switching and configuration
 
-![GUI](images/Screenshot 2025-08-26 152043.png)
+![GUI](images/Screenshot_2025-08-26_152043.png)
 
 **Key Features:**
 
@@ -137,7 +137,7 @@ This project is a *receive-only SDR front-end*:
 4. **Start Acquisition**: Send start commands to begin FFT streaming
 5. **Monitor Performance**: View real-time FPS, packet statistics
 
-![Example_Plot](images/Screenshot 2025-08-26 152518.png)
+![Example_Plot](images/Screenshot_2025-08-26_152518.png)
 
 ### Filter Configuration
 
@@ -167,29 +167,29 @@ This project is a *receive-only SDR front-end*:
 
 **Implementation Strategy Used**: `Performance_EarlyBlockPlacement` 
 
-+---
-+
-+## Post-Implementation Results
-+
-+### Timing (Vivado `report_timing_summary`)
-+
-+| Metric                     | Worst-case | Pass/Fail |
-+|----------------------------|-----------:|:---------:|
-+| **WNS** (ns)               | `0.113`   | `<✓>`     |
-+| **TNS** (ns)               | `0`        |           |
-+| **Fmax** (MHz)             | `101`      |           |
-+
-+### Resource Utilization (Vivado `report_utilization`)
-+
-+| Resource | Used  | Avail.  | Util.   |
-+|----------|------:|--------:|--------:|
-+| LUT      | `7930` | `63400` | `12.51%` |
-+| LUTRAM   | `752`  | `19000` | `3.96%` |
-+| FF       | `7995` | `126800`| `6.31%` |
-+| BRAM     | `50`   | `135`     | `37.04%`    |
-+| DSP      | `61`   | `240`     | `25.42%`    |
-+| MMCM     | `1`   | `6`     | `16.67%`|
-+
+---
+
+## Post-Implementation Results
+
+### Timing (Vivado `report_timing_summary`)
+
+| Metric                     | Worst-case | Pass/Fail |
+|----------------------------|-----------:|:---------:|
+| **WNS** (ns)               | `0.113`   | `<✓>`     |
+| **TNS** (ns)               | `0`        |           |
+| **Fmax** (MHz)             | `101`      |           |
+
+### Resource Utilization (Vivado `report_utilization`)
+
+| Resource | Used  | Avail.  | Util.   |
+|----------|------:|--------:|--------:|
+| LUT      | `7930` | `63400` | `12.51%` |
+| LUTRAM   | `752`  | `19000` | `3.96%` |
+| FF       | `7995` | `126800`| `6.31%` |
+| BRAM     | `50`   | `135`     | `37.04%`    |
+| DSP      | `61`   | `240`     | `25.42%`    |
+| MMCM     | `1`   | `6`     | `16.67%`|
+
  ---
 
 ## Web Interface Features
