@@ -87,7 +87,7 @@ This project is a *receive-only SDR front-end*:
 - START_COMMAND = `0x55`
 
 
-#### 2. **Hann Window Generator** (`generate_hann.py`)
+#### 2. **Hann Window Generator** (`hann_coeff.py`)
 **Utility script that:**
 - Generates 16K-point Hann window coefficients
 - Converts to Q15 fixed-point format (-32768 to +32767)
@@ -103,6 +103,9 @@ This project is a *receive-only SDR front-end*:
 - **Clock**: 50MHz system clock
 
 ## Software Setup
+
+**Vivado Version**: 2025.1
+**Development Borad**: Digilent Nexys 4 with Artix-7 FPGA  
 
 ### Prerequisites
 
