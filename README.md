@@ -2,7 +2,9 @@
 
 A complete FPGA-based digital signal processing system featuring real-time FFT analysis, configurable IIR filtering, and dual-mode communication (UART/Ethernet). The system includes a Python-based GUI for filter design, coefficient management, and live spectrum visualization.
 
-[![Demo video thumbnail](images/PXL_20250826_131528986~2.jpg)](https://youtu.be/abcdefg)
+
+Click on the image to view demo on YouTube
+[![Demo video thumbnail](images/PXL_20250826_131528986~2.jpg)](https://youtu.be/0xiEQpMPF1k?si=xGoH7k2XyMhvpqC4)
 
 ## Overview
 
